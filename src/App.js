@@ -1,17 +1,21 @@
 import './App.css';
-import Aboutme from './sections/Aboutme';
-import Education from './sections/Education';
-import Industry from './sections/Industry';
-import Research from './sections/Research';
+import HomePage from './pages/HomePage';
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
+import IndustryPage from './pages/IndustryPage';
+import ResearchPage from './pages/ResearchPage';
+import EducationPage from './pages/EducationPage';
 
 function App() {
   return (
     <div className='App'>
-      <Aboutme/>
-      <Education/>
-      <Industry/>
-      <Research/>
-      <div style={{height: '100px'}}/>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<HomePage/>}/>
+          <Route path='/education' element={<EducationPage/>}/>
+          <Route path='/industry' element={<IndustryPage/>}/>
+          <Route path='/research' element={<ResearchPage/>}/> 
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

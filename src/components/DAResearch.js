@@ -28,6 +28,7 @@ const DAResearch = () =>{
             <ul className='Highlight-list'>
                 <li><div className='Highlight-item'><a href='https://docs.google.com/presentation/d/1BZ7YyTtGgo4QcXyAcPD2jSY4N6QIEsnzVDhXpU5Fk7U/edit#slide=id.g27380bcf0c5_1_45'><img className='Highlight-img' src='/autumn23.png' alt=''/></a><header className='Highlight-text'>Autumn 2023 final presentation</header></div></li>
                 <li><div className='Highlight-item'><a href='https://docs.google.com/presentation/d/1IIMqZRHWCTnEEAsgFMHIzNWBjNPTwCLfo3unaKgk8Vw/edit#slide=id.p'><img className='Highlight-img' src='/final.png' alt=''/></a><header className='Highlight-text'>Spring 2024 final presentation</header></div></li>
+                <li><div className='Highlight-item'><a href='https://drive.google.com/file/d/1ISOR73FV4W_nP4pqWT8yVwuQmxDAKnHE/view'><img className='Highlight-img' src='/abstract.png' alt=''/></a><header className='Highlight-text'>Conference abstract submission</header></div></li>
             </ul>   
         </div>
     )

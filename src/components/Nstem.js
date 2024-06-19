@@ -21,6 +21,10 @@ const Nstem = () =>{
                 <li>Write HTML and custom CSS/JS snippets within WordPress to create responsive web pages and fix bugs</li>
                 <li>Attend both weekly tech department meetings and website redesign team meetings to report updates</li>
             </ul>
+
+            <ul className='Highlight-list'>
+                <li><div className='Highlight-item'><a href='https://nstem.org/stage/'><img className='Highlight-img' src='/company.png' alt=''/></a><header className='Highlight-text'>Company website</header></div></li>
+            </ul> 
         </div>
     )
 }

@@ -24,6 +24,10 @@ const Resilience = () =>{
                 <li>Utilize React Native and multiple react hooks for frontend development: useState, useEffect, useRef, etc.</li>
                 <li>Utilize Git for version control; Attend both weekly team meetings and team lead/manager one-on-one meetings</li>
             </ul>
+            
+            <ul className='Highlight-list'>
+                <li><div className='Highlight-item'><a href='https://apps.apple.com/us/app/my-aimee/id1540096035'><img className='Highlight-img' src='/aimee.png' alt=''/></a><header className='Highlight-text'>My AIMEE mobile app</header></div></li>
+            </ul>   
         </div>
     )
 }

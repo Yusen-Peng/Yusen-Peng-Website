@@ -1,7 +1,82 @@
 .App{
-  background:linear-gradient(to left, beige, darkkhaki);
-  padding-left: 10%;
-  padding-right: 10%;
+  background-color:silver;
+}
+.Page-header-container{
+  background-image: url('../public/scene.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.Bio{
+  text-align: left;
+  margin-left: 130px;
+  margin-right: 130px;
+  font-size: 25px;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: 500; 
+  line-height:200%;
+}
+
+.Interest{
+  font-size: 25px;
+  font-style: bold;
+  font-family: 'Times New Roman', Times, serif;
+  color:black;
+  text-align: left;
+  margin-left: 100px;
+  font-weight: 600;
+
+}
+
+.Pic-list{
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.Pic{
+  width: 400px;
+  height: 300px;
+  border-radius: 75px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.Page-header-list{
+  display: flex;
+  flex-direction: row;
+  list-style-type: none; /*no dots displayed*/
+  align-items: center;
+  justify-content: space-around;
+  height: 60px;
+}
+
+.Page-header-list li{
+  border-radius: 15px;
+}
+
+.Name{
+  font-family:'Times New Roman', Times, serif;
+  text-align: center;
+  color:azure;
+  font-size: 45px;
+  padding-top: 10px;
+}
+
+.Link{
+  text-decoration: none;
+  font-size:xx-large;
+  font-weight: 500;
+  text-align: center;
+  align-items: center;
+  color:azure;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .Heading-container{
@@ -68,7 +143,6 @@
   justify-content: center;
 }
 
-
 .Research-section{
   display: flex;
   flex-direction: column;
@@ -77,6 +151,7 @@
 .Research-heading{
   text-align: left;
   font-size: 30px;
+  margin-left: 30px;
   margin-bottom: 20px;
   margin-top: 20px;
   font-weight: 800;
@@ -145,6 +220,8 @@
   text-align: center;
   margin-bottom: 5px;
   color:darkgreen;
+  padding-left: 150px;
+  padding-right: 150px;
 }
 
 .IconText-container{
@@ -187,4 +264,28 @@
   font-weight: 600;
   color:brown;
   font-family:'Times New Roman', Times, serif;
+}
+
+.Footer{
+  display: flex;
+  flex-direction: row;
+  background-color:black;
+  align-items: center;
+  justify-content: center;
+}
+
+.Footer h1{
+  text-shadow: 10px;
+  font-size: x-large;
+  font-weight: 600;
+  color:aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Footer p{
+  text-shadow: 10px;
+  font-size: x-large;
+  font-weight: 600;
+  color:grey;
+  font-family: Arial, Helvetica, sans-serif;
 }
