@@ -7,6 +7,9 @@ import CSResearch from '../components/CSResearch';
 const Research = () =>{
     return (
         <div className='Research-section'>
+            <header className='Research-heading'>Research Interest</header>
+            <p className='Interest'>machine learning, deep learning, data mining, data analytics</p>
+            <header className='Research-heading'>Research Experience</header>
             <div className='Research-list-container'>
                 <AIResearch/>
                 <DAResearch/>
