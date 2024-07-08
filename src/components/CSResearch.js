@@ -27,8 +27,10 @@ const CSResearch = () =>{
             </ul>
 
             <ul className='Highlight-list'>
-                <li><div className='Highlight-item'><a href='https://drive.google.com/file/d/1oGBEicCZzNmaQ1xpNjBNCLg2Veo_ZELl/view'><img className='Highlight-img' src='/paper.png' alt=''/></a><header className='Highlight-text'>final research paper</header></div></li>
+                <li><div className='Highlight-item'><a href='https://drive.google.com/file/d/1oGBEicCZzNmaQ1xpNjBNCLg2Veo_ZELl/view'><img className='Highlight-img' src='/paper.png' alt=''/></a><header className='Highlight-text'>research paper</header></div></li>
+                <li><div className='Highlight-item'><a href='https://drive.google.com/file/d/1Q3U9HihDamZp9HKgECZaG2mGMs0BFeRe/view?usp=sharing'><img className='Highlight-img' src='/poster.jpg' alt=''/></a><header className='Highlight-text'>research poster</header></div></li>
                 <li><div className='Highlight-item'><a href='https://github.com/Yusen-Peng/SU23_File_Performance_Research'><img className='Highlight-img' src='/sourcecode.png' alt=''/></a><header className='Highlight-text'>source code</header></div></li>
+
             </ul>   
         </div>
     )
