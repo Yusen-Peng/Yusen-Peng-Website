@@ -1,9 +1,20 @@
-.App{
-  background-color:white;
+/* Base styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
 }
-.Page-header-container{
+
+.App {
+  background-color: white;
+}
+
+/* Page header container */
+.Page-header-container {
   background-image: url('../public/background.jpg');
-  background-size: cover; /* Adjust the percentage to zoom out */
+  background-size: cover;
   background-position: center;
   height: 25vh;
 }
@@ -15,31 +26,32 @@
   background-position: center;
 }
 
-
-.Bio{
-  width:55%;
+/* Bio section */
+.Bio {
+  width: 100%;
 }
 
-.Bio-text{
+.Bio-text {
   text-align: left;
-  margin-left: 60px;
+  margin-left: 10%;
   font-size: 25px;
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight: 500; 
-  line-height:200%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  line-height: 200%;
 }
 
-.Interest{
+/* Interest section */
+.Interest {
   font-size: 25px;
-  font-style: bold;
   font-family: 'Times New Roman', Times, serif;
-  color:black;
+  color: black;
   text-align: left;
-  margin-left: 100px;
+  margin-left: 10%;
   font-weight: 600;
 }
 
-.Pic-list{
+/* Picture list */
+.Pic-list {
   padding-bottom: 20px;
   display: flex;
   flex-direction: row;
@@ -48,131 +60,130 @@
   justify-content: center;
 }
 
-.Pic{
-  width: 400px;
-  height: 300px;
+.Pic {
+  width: 100%;
+  max-width: 400px;
+  height: auto;
   border-radius: 75px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 10px;
 }
 
-.New-list{
+/* New list */
+.New-list {
   list-style-type: none;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
-  margin-left: 30px;
-  margin-right: 30px;
+  margin: 30px;
   padding-top: 210px;
   width: 90%;
-  height: 400px; /*fixed height*/
-  overflow-y: auto; /*overflow if needed*/
+  height: 400px;
+  overflow-y: auto;
   border: 3px solid;
 }
 
-.New-list li{
+.New-list li {
   font-size: 25px;
-  font-family:Arial, Helvetica, sans-serif;
-  font-weight: 500; 
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
   line-height: 150%;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 5px 0;
 }
 
-.Page-header-list{
+/* Page header list */
+.Page-header-list {
   display: flex;
   flex-direction: row;
-  list-style-type: none; /*no dots displayed*/
+  list-style-type: none;
   align-items: center;
   justify-content: space-around;
   height: 120px;
 }
 
-.Page-header-list li{
+.Page-header-list li {
   border-radius: 15px;
 }
 
-.Name{
-  font-family:'Times New Roman', Times, serif;
+/* Name */
+.Name {
+  font-family: 'Times New Roman', Times, serif;
   text-align: center;
-  color:white;
+  color: white;
   font-size: 45px;
   padding-top: 10px;
 }
 
-.Link{
+/* Link */
+.Link {
   text-decoration: none;
-  font-size:xx-large;
+  font-size: xx-large;
   font-weight: 500;
   text-align: center;
   align-items: center;
-  background-color:antiquewhite;
+  background-color: antiquewhite;
   border-radius: 30px;
-  color:chocolate;
-  padding-left: 10px;
-  padding-right: 10px;
-  padding-top: 5px;
-  padding-bottom: 5px;
+  color: chocolate;
+  padding: 5px 10px;
 }
 
-.Heading-container{
+/* Heading container */
+.Heading-container {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
   margin-right: 50px;
 }
 
-.Heading-container-2{
+.Heading-container-2 {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
   margin-left: 50px;
 }
 
-.Heading-title{
+.Heading-title {
   text-align: center;
   font-size: 60px;
   font-weight: 600;
-  font-family:'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', Times, serif;
   margin-bottom: 10px;
 }
 
-.Heading-subtitle{
+.Heading-subtitle {
   text-align: center;
   font-size: 30px;
   font-weight: 400;
   font-family: Arial, Helvetica, sans-serif;
   font-style: italic;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 
-.Heading-image{
+.Heading-image {
   margin-top: 30px;
-  width: 400px;
-  height: 400px;
+  width: 100%;
+  max-width: 400px;
+  height: auto;
   border-radius: 300px;
   margin-bottom: 20px;
 }
 
-.Icon-container{
+/* Icon container */
+.Icon-container {
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-.Icon-image{
+.Icon-image {
   width: 50px;
   height: 50px;
   border-radius: 10px;
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 10px 20px;
 }
 
-.About-me-container{
+/* About me container */
+.About-me-container {
   display: flex;
   flex-direction: row;
   align-self: center;
@@ -180,66 +191,69 @@
   justify-content: center;
 }
 
-.Research-section{
+/* Research section */
+.Research-section {
   display: flex;
   flex-direction: column;
 }
 
-.Research-heading{
+.Research-heading {
   text-align: left;
   font-size: 30px;
-  margin-left: 30px;
-  margin-bottom: 20px;
-  margin-top: 20px;
+  margin: 20px 30px;
   font-weight: 800;
-  color:black;
+  color: black;
 }
 
-.Research-list-container{
+.Research-list-container {
   display: flex;
   flex-direction: column;
 }
 
-.Research-container{
+.Research-container {
   display: flex;
   flex-direction: column;
   margin-top: 20px;
 }
 
-.Location{
+/* Location */
+.Location {
   text-align: center;
   margin-bottom: 5px;
   font-size: 20px;
   font-weight: 600;
-  color:black;
-  font-family:Arial, Helvetica, sans-serif;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.Job-title{
+/* Job title */
+.Job-title {
   text-align: center;
   margin-bottom: 5px;
   font-size: 25px;
   font-weight: 800;
-  color:black;
+  color: black;
   font-family: 'Times New Roman', Times, serif;
 }
 
-.Advisor{
+/* Advisor */
+.Advisor {
   text-align: center;
   font-size: 20px;
   font-weight: 600;
-  color:black;
+  color: black;
   font-style: italic;
 }
 
-.Skill-list{
+/* Skill list */
+.Skill-list {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
 }
 
-.Skill{
+.Skill {
   text-align: center;
   font-size: 20px;
   color: black;
@@ -247,28 +261,30 @@
   font-style: italic;
 }
 
-.Description-list{
-  list-style-type: none; /*no dots*/
+/* Description list */
+.Description-list {
+  list-style-type: none;
 }
 
-.Description-list li{
+.Description-list li {
   font-size: 20px;
   font-weight: 500;
   text-align: left;
   margin-bottom: 5px;
-  color:black;
-  padding-left: 150px;
-  padding-right: 150px;
+  color: black;
+  padding: 0 150px;
 }
 
-.IconText-container{
+/* Icon text container */
+.IconText-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.Highlight-list{
+/* Highlight list */
+.Highlight-list {
   margin-top: 20px;
   display: flex;
   flex-direction: row;
@@ -277,57 +293,60 @@
   justify-content: center;
 }
 
-.Highlight-item{
+.Highlight-item {
   display: flex;
   flex-direction: column;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin: 0 10px;
 }
 
-.Highlight-img{
-  width: 250px;
-  height: 150px;
+.Highlight-img {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
   border-radius: 30px;
 }
 
-.Highlight-img:hover{
+.Highlight-img:hover {
   opacity: 80%;
 }
 
-.Highlight-text{
+.Highlight-text {
   text-align: center;
   margin-top: 10px;
   font-size: large;
   font-weight: 600;
-  color:black;
-  font-family:'Times New Roman', Times, serif;
+  color: black;
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.Footer{
+/* Footer */
+.Footer {
   display: flex;
   flex-direction: row;
-  background-color:black;
+  background-color: black;
   align-items: center;
   justify-content: center;
 }
 
-.Footer p{
+.Footer p {
   text-shadow: 10px;
   font-size: large;
   font-weight: 600;
-  color:grey;
+  color: grey;
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* Resume */
 .Resume-cover {
-  width: 300px;
-  height: 400px;
+  width: 100%;
+  max-width: 300px;
+  height: auto;
   border-radius: 60px;
 }
 
 .Resume-button {
   margin-top: 20px;
-  color:azure;
+  color: azure;
   width: 150px;
   height: 50px;
   border-radius: 20px;
@@ -336,28 +355,79 @@
   justify-content: center;
 }
 
-.Resume-button:hover{
-  background-color:cadetblue;
+.Resume-button:hover {
+  background-color: cadetblue;
 }
 
-.Resume-button p{
+.Resume-button p {
   font-size: x-large;
   text-align: center;
-  color:black;
+  color: black;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 600;
 }
 
+/* Parallel container */
 .Parallel-container {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.Resume-section{
+/* Resume section */
+.Resume-section {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  width:45%;
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (min-width: 600px) {
+  .Bio {
+      width: 80%;
+  }
+
+  .Bio-text, .Interest {
+      margin-left: 60px;
+  }
+
+  .New-list {
+      padding-top: 50px;
+      width: 70%;
+      height: auto;
+      border: none;
+  }
+
+  .Highlight-list {
+      flex-direction: row;
+  }
+
+  .Highlight-item {
+      margin: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .Bio {
+      width: 55%;
+  }
+
+  .Bio-text, .Interest {
+      margin-left: 60px;
+  }
+
+  .Page-header-container {
+      height: 30vh;
+  }
+
+  .Highlight-item {
+      margin: 20px;
+  }
+
+  .Highlight-img {
+      width: 250px;
+      height: 150px;
+  }
 }
