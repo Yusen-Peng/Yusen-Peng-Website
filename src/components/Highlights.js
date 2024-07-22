@@ -7,7 +7,6 @@ const Highlights = (props) =>{
             <header className='Research-heading'>Highlights</header>
             <ul className='Pic-list'>
                 <li><img className='Pic' src='/highlight1.jpg' alt=''/><header className='Highlight-text'>2024 Undergraduate Engineering Research Forum</header></li>
-                <li><img className='Pic'src='/highlight2.jpg' alt=''/><header className='Highlight-text'>2023 Arcade of Code</header></li>
                 <li><img className='Pic' src='/highlight3.jpg' alt=''/><header className='Highlight-text'>2022 Hack OHI/O</header></li>
             </ul>
         </div>

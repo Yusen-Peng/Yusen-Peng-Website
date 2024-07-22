@@ -1,16 +1,21 @@
 import React from 'react'
 import '../App.css';
+import TranscriptDownload from './TranscriptDownload';
 
 const OSU = () =>{
     return (
         <>
             <header className='Research-heading'>Education</header>
-
+            <div className='Parallel-container'>
                 <div className='Heading-container-2'>
                     <div className='Location'>Columbus, Ohio</div>
-                    <div className='Job-title'>The Ohio State university (GPA: 4.00/4.00)</div>
+                    <div className='Job-title'>The Ohio State University</div>
+                    <div className='Job-title'>GPA: 4.00/4.00</div>
                     <div className='Advisor'>Honors B.S. Computer Science and Engineering, Expected May 2026</div>
-                </div> 
+                </div>
+                <TranscriptDownload/>
+            </div>
+                
             
             <header className='Research-heading'>Campus Employment</header>
             
@@ -47,6 +52,9 @@ const OSU = () =>{
                 <ul className='Description-list'>
                     <li>Developed, tested, and reviewed coding problems in Java and Python for on-campus programming competitions</li>
                     <li>Applied various data structures and algorithms: hash table, graph, greedy, sorting, searching</li>
+                </ul>
+                <ul className='Highlight-list'>
+                    <li><div className='Highlight-item'><img className='Pic' src='/highlight2.jpg' alt=''/><header className='Highlight-text'>2023 Arcade of Code</header></div></li>
                 </ul>
             </div>
            

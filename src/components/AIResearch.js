@@ -27,6 +27,7 @@ const AIResearch = () =>{
             </ul>
 
             <ul className='Highlight-list'>
+                <li><div className='Highlight-item'><a href='https://docs.google.com/presentation/d/1rwOJUlVYRWqbCEKu3cti4cMbd_oqhohfzPYq9DSIHwU/edit#slide=id.p'><img className='Highlight-img' src='/shapelet.png' alt=''/></a><header className='Highlight-text'>shapelet transformer</header></div></li>
                 <li><div className='Highlight-item'><a href='https://docs.google.com/presentation/d/1k6rfVq2M9b9cEuofH49JKJwYSx5qA6BS66_Rg9OqOuo/edit#slide=id.p'><img className='Highlight-img' src='/weasel.png' alt=''/></a><header className='Highlight-text'>WEASEL classifier</header></div></li>
                 <li><div className='Highlight-item'><a href='https://docs.google.com/presentation/d/1GxtTWV8M9-HjTuemRF3Itw-p1NzUJwmPpQCFC8Ty8dY/edit#slide=id.p'><img className='Highlight-img' src='/weasel2.png' alt=''/></a><header className='Highlight-text'>WEASEL 2.0 classifier</header></div></li>
                 <li><div className='Highlight-item'><a href='https://docs.google.com/presentation/d/1XqPxCez9eYrbyd43-xZDa7wk-7jOAvUoz9LyCC9suwI/edit#slide=id.g2be5d138705_0_100'><img className='Highlight-img' src='/weaselmuse.png' alt=''/></a><header className='Highlight-text'>WEASEL + MUSE classifier</header></div></li>

@@ -6,8 +6,8 @@ const Resilience = () =>{
     return (
         <div className='Research-container'>
             <div className='Location'>Resilience, Inc, Tampa, Florida (remote)</div>
-            <div className='Job-title'>Frontend Developer (Mobile Application), from December 2023 to Present</div>
-            <div className='Advisor'>Manager: Neha Raj; Team lead: John Lu</div>
+            <div className='Job-title'>Frontend Developer (Mobile Application), from December 2023 to August 2024</div>
+            <div className='Advisor'>Manager: Neha Raj, Ian Mello; Team lead: John Lu</div>
             
             <ul className='Skill-list'>
                 <IconText source='/reactnative.png' text='React Native' />
@@ -27,6 +27,7 @@ const Resilience = () =>{
             
             <ul className='Highlight-list'>
                 <li><div className='Highlight-item'><a href='https://apps.apple.com/us/app/my-aimee/id1540096035'><img className='Highlight-img' src='/aimee.png' alt=''/></a><header className='Highlight-text'>My AIMEE mobile app</header></div></li>
+                <li><div className='Highlight-item'><a href='https://docs.google.com/document/d/1_c7Q74w0hka_t8SNcSo98gHFrVwW8PnyGu0ECEQTuQw/edit'><img className='Highlight-img' src='/resilience_tracker.png' alt=''/></a><header className='Highlight-text'>task tracker</header></div></li>
             </ul>   
         </div>
     )
