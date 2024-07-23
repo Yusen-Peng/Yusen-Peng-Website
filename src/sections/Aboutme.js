@@ -1,6 +1,5 @@
 import React from 'react'
 import '../App.css';
-import Highlights from '../components/Highlights';
 import ResumeDownload from '../components/ResumeDownload';
 import Bio from '../components/Bio';
 import News from '../components/News';
@@ -27,7 +26,6 @@ const Aboutme = () =>{
             </div>
             
             <News/>
-            <Highlights/>
         </div>
     )
 }

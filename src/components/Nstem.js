@@ -13,12 +13,12 @@ const Nstem = () =>{
                 <IconText source='/wordpress.png' text='WordPress' />
                 <IconText source='/html.png' text='HTML' />
                 <IconText source='/css.png' text='CSS' />
-                <IconText source='/javascript.png' text='JavaScript' />
+                <IconText source='/chrome.png' text='Chrome Inspector' />
             </ul>
             
             <ul className='Description-list'>
                 <li>Collaborate in developing, improving, testing, and maintaining the National STEM official website</li>
-                <li>Write HTML and custom CSS/JS snippets within WordPress to create responsive web pages and fix bugs</li>
+                <li>Write HTML and custom CSS snippets within WordPress to create responsive web pages and fix bugs</li>
                 <li>Attend both weekly tech department meetings and website redesign team meetings to report updates</li>
             </ul>
 

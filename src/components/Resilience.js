@@ -15,7 +15,6 @@ const Resilience = () =>{
                 <IconText source='/css.png' text='CSS' />
                 <IconText source='/javascript.png' text='JavaScript' />
                 <IconText source='/git.png' text='Git' />
-                <IconText source='/expo.png' text='Expo Go' />
             </ul>
             
             <ul className='Description-list'>
